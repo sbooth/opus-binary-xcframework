@@ -22,7 +22,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "opus",
-			url: "https://github.com/sbooth/opus-binary-xcframework/releases/download/0.1.0/opus.xcframework.zip",
-			checksum: "99c22b181d95d91ce7cb7ce6f449f61e3c954c11009a87ec40ef16a92230d174"),
+			url: "https://github.com/sbooth/opus-binary-xcframework/releases/download/0.2.0/opus.xcframework.zip",
+			checksum: "0d1f5ab842e0eab6caf14d5d898dc0e3114f17907782a497572cd102a5d502ad"),
 	]
 )

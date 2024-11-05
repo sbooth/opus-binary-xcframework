@@ -6,8 +6,9 @@ import PackageDescription
 let package = Package(
 	name: "opus-binary-xcframework",
 	platforms: [
-		.macOS(.v10_15),
-		.iOS(.v14),
+		.macOS(.v11),
+		.iOS(.v15),
+		.tvOS(.v15),
 	],
 	products: [
 		// Products define the executables and libraries a package produces, making them visible to other packages.
@@ -22,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "opus",
-			url: "https://github.com/sbooth/opus-binary-xcframework/releases/download/0.2.0/opus.xcframework.zip",
-			checksum: "0d1f5ab842e0eab6caf14d5d898dc0e3114f17907782a497572cd102a5d502ad"),
+			url: "https://github.com/sbooth/opus-binary-xcframework/releases/download/0.2.1/opus.xcframework.zip",
+			checksum: "73e360c3d63905b2e670aeb00bd9251c852b9205be01ab05fd7bf214a54a0e3e"),
 	]
 )
